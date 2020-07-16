@@ -29,8 +29,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>${maven.compiler.plugin.version}</version>
         <configuration>
-          <source>${jdk.version}</source>
-          <target>${jdk.version}</target>
+        
 		<archive>
 			<manifest>
 				<mainClass>com.coveros.demo.helloworld.HelloWorld</mainClass>
