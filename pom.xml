@@ -31,11 +31,11 @@
         <configuration>
           <source>${jdk.version}</source>
           <target>${jdk.version}</target>
-          <archive>
-						<manifest>
-							<mainClass>com.coveros.demo.helloworld</mainClass>
-						</manifest>
-					</archive>
+		<archive>
+			<manifest>
+				<mainClass>com.coveros.demo.helloworld.HelloWorld</mainClass>
+			</manifest>
+		</archive>
         </configuration>
       </plugin>
     </plugins>
